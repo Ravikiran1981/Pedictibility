@@ -1,0 +1,32 @@
+[
+    {
+        "file": "sample_code/calculator.py",
+        "summary": "This module provides basic arithmetic operations including addition, subtraction, multiplication, and division.",
+        "methods": [
+            {
+                "name": "add",
+                "signature": "def add(a, b):",
+                "description": "Returns the sum of a and b.",
+                "complexity": "low"
+            },
+            {
+                "name": "subtract",
+                "signature": "def subtract(a, b):",
+                "description": "Returns the difference between a and b.",
+                "complexity": "low"
+            },
+            {
+                "name": "multiply",
+                "signature": "def multiply(a, b):",
+                "description": "Returns the product of a and b.",
+                "complexity": "low"
+            },
+            {
+                "name": "divide",
+                "signature": "def divide(a, b):",
+                "description": "Returns the quotient of a and b. Raises a ValueError if b is zero.",
+                "complexity": "medium"
+            }
+        ]
+    }
+]
