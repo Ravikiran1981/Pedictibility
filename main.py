@@ -94,7 +94,7 @@ def main():
     files = load_files(SOURCE_DIR)
     extracted = {}
 
-    for file_path, content in tqdm(files.items(), desc="🔎 Analyzing files"):
+    for file_path, content in tqdm(files.items(), desc=" Analyzing files"):
         chunks = chunk_code(content)
         file_summary = []
 
